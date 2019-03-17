@@ -10,7 +10,7 @@ class GraphiQLAssetBundle extends AssetBundle
     public function init()
     {
         // define the path that your publishable resources live
-        $this->sourcePath = '@vendor/markhuot/craftql/src/resources';
+        $this->sourcePath = '@vendor/fieldwork/craftql/src/resources';
 
         // define the dependencies
         $this->depends = [
